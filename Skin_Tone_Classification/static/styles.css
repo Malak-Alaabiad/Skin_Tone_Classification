@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light Alice Blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff; /* White background for the container */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px; /* Max width for the container */
+    margin: auto;
+}
+
+h1 {
+    color: #ff6347; /* Tomato color */
+    font-size: 36px; /* Larger font size */
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    margin: 20px 0;
+}
+
+.file-input {
+    margin-bottom: 15px;
+    border: 2px solid #ff6347; /* Tomato border color */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px; /* Larger font size */
+}
+
+.submit-button {
+    background-color: #ff6347; /* Tomato color */
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size */
+}
+
+.submit-button:hover {
+    background-color: #e5534d; /* Darker Tomato color */
+}
+
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fefbd8; /* Light Yellow background for results */
+    border: 2px solid #ff6347; /* Tomato border color */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result-header {
+    color: #4682b4; /* Steel Blue color */
+    font-size: 32px; /* Larger font size */
+    margin-bottom: 20px;
+}
+
+.result-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-text {
+    font-size: 28px; /* Larger font size for result text */
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+}
+
+.result-label {
+    font-weight: bold;
+    color: #ff6347; /* Tomato color for the result label */
+}
+
+.uploaded-image {
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
