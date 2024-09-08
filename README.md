@@ -23,6 +23,10 @@ Create a directory structure with app.py (Flask app), templates (HTML files), st
 Navigate to the project directory in your terminal and run python app.py.
 Your application should be live on http://127.0.0.1:5000 .
 
+</div>
+  <img src=".Website.png" width=100%>
+</div>
+
 # Access and Test:
 
 Open the web application in your browser, upload an image, and see the results.
