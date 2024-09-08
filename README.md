@@ -1,5 +1,8 @@
 # Skin_Tone_Classification
 Project Overview In this project, I developed a skin tone classification model to classify images into different skin tone categories: dark, light, lighten, mid dark, mid light, mid-dark, and mid-light. The model uses Convolutional Neural Networks (CNNs) to achieve high accuracy and is deployed using Flask to create an interactive web application.
+</div>
+  <img src="Skin_Tone_Classification.png" width=100%>
+</div>
 
 # Key Features:
 Custom CNN Architecture: Leveraged the power of deep learning to create a model that accurately classifies skin tones.
